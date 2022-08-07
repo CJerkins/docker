@@ -1,0 +1,85 @@
+2022-06-06 21:17:39.520 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 305 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-06 21:17:39.555 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-06 21:18:00.529 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-06 21:18:01.270 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-06 21:18:06.452 -  INFO - [DavosApplication] - Started DavosApplication in 28.646 seconds (JVM running for 32.749)
+2022-06-06 21:19:52.649 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 309 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-06 21:19:52.680 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-06 21:20:15.054 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-06 21:20:15.883 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-06 21:20:21.494 -  INFO - [DavosApplication] - Started DavosApplication in 31.294 seconds (JVM running for 36.017)
+2022-06-07 01:30:16.219 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 307 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 01:30:16.265 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 01:30:55.221 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 01:30:56.247 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 01:31:02.538 -  INFO - [DavosApplication] - Started DavosApplication in 55.219 seconds (JVM running for 89.246)
+2022-06-07 01:30:17.415 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 311 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 01:30:17.480 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 01:30:56.993 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 01:30:58.041 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 01:31:04.473 -  INFO - [DavosApplication] - Started DavosApplication in 56.843 seconds (JVM running for 90.172)
+2022-06-07 01:30:14.154 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 308 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 01:30:14.259 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 01:30:56.919 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 01:30:57.704 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 01:31:04.195 -  INFO - [DavosApplication] - Started DavosApplication in 58.088 seconds (JVM running for 89.032)
+2022-06-07 01:30:17.957 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 311 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 01:30:18.045 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 01:30:57.964 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 01:30:58.735 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 01:31:05.133 -  INFO - [DavosApplication] - Started DavosApplication in 57.19 seconds (JVM running for 90.402)
+2022-06-07 01:30:15.796 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 310 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 01:30:15.912 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 01:30:55.885 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 01:30:56.721 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 01:31:03.082 -  INFO - [DavosApplication] - Started DavosApplication in 56.673 seconds (JVM running for 89.413)
+2022-06-07 02:30:07.126 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 311 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 02:30:07.189 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 02:30:47.501 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 02:30:48.325 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 02:30:55.005 -  INFO - [DavosApplication] - Started DavosApplication in 58.593 seconds (JVM running for 90.683)
+2022-06-07 02:39:46.344 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 309 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 02:39:46.378 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 02:40:28.182 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 02:40:28.870 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 02:40:35.586 -  INFO - [DavosApplication] - Started DavosApplication in 60.906 seconds (JVM running for 95.21)
+2022-06-07 02:56:19.642 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 309 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 02:56:19.700 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 02:57:00.394 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 02:57:01.112 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 02:57:07.735 -  INFO - [DavosApplication] - Started DavosApplication in 55.168 seconds (JVM running for 71.993)
+2022-06-07 03:19:47.764 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 310 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 03:19:47.841 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 03:20:23.117 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 03:20:24.514 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 03:20:30.930 -  INFO - [DavosApplication] - Started DavosApplication in 50.088 seconds (JVM running for 66.212)
+2022-06-07 05:18:25.344 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 309 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 05:18:25.713 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 05:19:05.381 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 05:19:06.400 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 05:19:13.497 -  INFO - [DavosApplication] - Started DavosApplication in 57.221 seconds (JVM running for 89.791)
+2022-06-07 11:57:14.581 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 311 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 11:57:14.663 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 11:57:56.604 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 11:57:57.537 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 11:58:04.344 -  INFO - [DavosApplication] - Started DavosApplication in 58.653 seconds (JVM running for 90.658)
+2022-06-07 12:05:01.436 -  INFO - [DavosApplication] - Starting DavosApplication on 9f1fa0b16286 with PID 312 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 12:05:01.518 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 12:05:42.548 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 12:05:43.196 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 12:05:49.336 -  INFO - [DavosApplication] - Started DavosApplication in 59.281 seconds (JVM running for 94.681)
+2022-06-07 14:14:54.339 -  INFO - [DavosApplication] - Starting DavosApplication on 6039d81933a5 with PID 310 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 14:14:54.365 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 14:15:21.664 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 14:15:22.651 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 14:15:29.033 -  INFO - [DavosApplication] - Started DavosApplication in 37.916 seconds (JVM running for 43.565)
+2022-06-07 14:21:18.255 -  INFO - [DavosApplication] - Starting DavosApplication on 6039d81933a5 with PID 309 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 14:21:18.283 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 14:21:46.542 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 14:21:47.283 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 14:21:56.557 -  INFO - [DavosApplication] - Started DavosApplication in 40.731 seconds (JVM running for 45.929)
+2022-06-07 14:24:34.630 -  INFO - [DavosApplication] - Starting DavosApplication on 6039d81933a5 with PID 309 (/app/davos/davos.jar started by abc in /run/s6/services/davos)
+2022-06-07 14:24:34.925 -  INFO - [DavosApplication] - No active profile set, falling back to default profiles: default
+2022-06-07 14:25:11.194 -  INFO - [ScheduleExecutor] - Initialising automatic startup schedules
+2022-06-07 14:25:14.800 -  INFO - [ScheduleExecutor] - Automatic startup schedules should now be running
+2022-06-07 14:25:23.895 -  INFO - [DavosApplication] - Started DavosApplication in 56.294 seconds (JVM running for 70.044)

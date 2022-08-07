@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+  flame:
+    image: pawelmalak/flame:multiarch2.3.0
+    container_name: flame
+    volumes:
+      - /DATA/AppData/flame:/app/data
+    ports:
+      - 5005:5005
+    environment:
+       - PASSWORD=drokDROK63
+    restart: unless-stopped
