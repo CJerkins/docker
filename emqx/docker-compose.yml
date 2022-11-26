@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  emqx1:
+    image: emqx/emqx:5.0.9
+    container_name: emqx1
+    environment:
+    - "EMQX_NODE_NAME=emqx@node1.drokpi2.dk.lc"
+    - "EMQX_CLUSTER__DISCOVERY_STRATEGY=static"
+    - "EMQX_CLUSTER__STATIC__SEEDS=[emqx@node1.drokpi2.dk.lc,emqx@node2.drokpi2.dk.lc]"
+    healthcheck:
+      test: ["CMD", "/opt/emqx/bin/emqx_ctl", "status"]
+      interval: 5s
+      timeout: 25s
+      retries: 5
+    networks:
+      emqx-bridge:
+        aliases:
+        - node1.drokpi2.dk.lc
+
+  emqx2:
+    image: emqx/emqx:5.0.9
+    container_name: emqx2
+    environment:
+    - "EMQX_NODE_NAME=emqx@node2.drokpi2.dk.lc"
+    - "EMQX_CLUSTER__DISCOVERY_STRATEGY=static"
+    - "EMQX_CLUSTER__STATIC__SEEDS=[emqx@node1.drokpi2.dk.lc,emqx@node2.drokpi2.dk.lc]"
+    healthcheck:
+      test: ["CMD", "/opt/emqx/bin/emqx_ctl", "status"]
+      interval: 5s
+      timeout: 25s
+      retries: 5
+    networks:
+      emqx-bridge:
+        aliases:
+        - node2.drokpi2.dk.lc
+
+networks:
+  emqx-bridge:
+    driver: bridge
+
