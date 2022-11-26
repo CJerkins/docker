@@ -1,0 +1,1 @@
+{'fold': False, 'snapins': [{'snapin_type_id': 'bookmarks', 'visibility': 'open'}, {'snapin_type_id': 'master_control', 'visibility': 'closed'}, {'snapin_type_id': 'tactical_overview', 'visibility': 'open'}]}

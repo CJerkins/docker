@@ -1,0 +1,14 @@
+version: '3'
+services:
+  heimdall:
+    image: linuxserver/heimdall:latest
+    ports: [8080:80]
+    volumes: [configdata:/config]
+volumes:
+  configdata:
+    driver: rclone
+    driver_opts:
+      remote: 'gdrive:heimdall'
+      allow_other: 'true'
+      vfs_cache_mode: full
+      poll_interval: 0
