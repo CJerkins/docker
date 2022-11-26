@@ -8,5 +8,5 @@ services:
     ports:
       - 5005:5005
     environment:
-       - PASSWORD=drokDROK63
+       - PASSWORD=PASSWORD
     restart: unless-stopped
