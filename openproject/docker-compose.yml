@@ -1,0 +1,23 @@
+---
+version: "3.7"
+
+networks:
+  openproject:
+
+services:
+  openproject:
+    image: openproject/community:12
+    container_name: openproject
+    ports:
+      - 8080:80
+    environment:
+      - SECRET_KEY_BASE=koZirTof1faEzGv7vGyKugOq6RnpislI
+      - OPENPROJECT_HOST__NAME=localhost:8080
+      - OPENPROJECT_HTTPS=false
+    volumes:
+      - /Users/jacktrades/Library/CloudStorage/OneDrive-Personal/Documents/1. Active_Projects/3. drok_IaC/docker/openproject/data/pgdata:/var/openproject/pgdata
+      - /Users/jacktrades/Library/CloudStorage/OneDrive-Personal/Documents/1. Active_Projects/3. drok_IaC/docker/openproject/data/assets:/var/openproject/assets
+    networks:
+      - openproject
+    restart: unless-stopped
+    
