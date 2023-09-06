@@ -1,0 +1,46 @@
+`sudo vim /etc/pam.d/sshd`
+```
+session optional pam_exec.so /usr/bin/ntfy-ssh-login.sh
+```
+
+```
+sudo vim /usr/bin/ntfy-ssh-login.sh
+e
+```
+```
+#!/bin/bash
+if [ "${PAM_TYPE}" = "open_session" ]; then
+  curl \
+    -H "Authorization: Bearer tk_deuwhy9aof7gou7ghx0l7z7dkmj7q" \
+    -H prio:high \
+    -H tags:warning \
+    -d "SSH login: ${PAM_USER}@$HOSTNAME from ${PAM_RHOST}" \
+    ntfy.drokdev.xyz/alerts
+fi
+```
+
+curl -H "Authorization: Bearer tk_deuwhy9aof7gou7ghx0l7z7dkmj7q" -H prio:high -H tags:warning -d "SSH login: ${PAM_USER}@$HOSTNAME from ${PAM_RHOST}" ntfy.drokdev.xyz/alerts
+
+sudo vim /etc/profile
+or
+sudo vim /etc/zsh/zßprofile
+HOSTNAME=$(uname -n)
+ip=`echo $SSH_CONNECTION | cut -d " " -f 1`
+curl -H "Authorization: Bearer tk_deuwhy9aof7gou7ghx0l7z7dkmj7q" -H prio:high -H tags:warning -d "SSH login: $USER@$HOSTNAME from $ip" ntfy.drokdev.xyz/alerts > /dev/null 2>&1
+
+
+HOSTNAME=$(uname -n)
+ip=`echo $SSH_CONNECTION | cut -d " " -f 1`
+curl -H "Authorization: Bearer tk_nwdai8uttxkb6vzv6wjotq3q837il" -H prio:high -H tags:warning -d "SSH login: $USER@$HOSTNAME from $ip" https://n.drokdev.pro/alerts > /dev/null 2>&1
+
+
+
+#!/bin/bash
+if [ "${PAM_TYPE}" = "open_session" ]; then
+  curl \
+    -H "Authorization: Bearer tk_nwdai8uttxkb6vzv6wjotq3q837il" \
+    -H prio:high \
+    -H tags:warning \
+    -d "SSH login: ${PAM_USER}@$HOSTNAME from ${PAM_RHOST}" \
+    ntfy.drokdev.xyz/alerts
+fi

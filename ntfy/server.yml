@@ -1,0 +1,10 @@
+base-url: "https://ntfy.drokdev.xyz"
+attachment-cache-dir: "/var/cache/ntfy/attachments"
+behind-proxy: true
+cache-file: "/var/cache/ntfy/cache.db"
+auth-file: "/var/lib/ntfy/user.db"
+auth-default-access: "deny-all"
+listen-http: ":81"
+
+enable-signup: true
+enable-login: true
